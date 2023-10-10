@@ -1,5 +1,3 @@
 # SVGs
 
-Aquest repositori conté exemples de com crear SVGs de diverses maneres.
-
-Existeixen algunes branques amb exemples variats.
+En aquesta branca que es diu "logos" estan pujats els resultats de tots els logos SVG que hem hagut de fer.
