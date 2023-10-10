@@ -1,45 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SVGs</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-    <h1>Formes bàsiques</h1>
-    <svg width="500" height="300">
-      <rect 
-        x="50" y="50"
-        width="400" height="200" 
-        rx="10" ry="10"
-        fill="olive"
-        stroke-width="5" stroke="darkgreen"
-        />
-      <line 
-        x1="100" y1="100"
-        x2="220" y2="150" 
-        stroke="red" stroke-width="12"
-        />
-      <circle 
-        cx='200' cy='150' r='50' 
-        fill='purple' 
-        stroke="yellow" stroke-width="4"
-        fill-opacity="0.8"
-        />
-      <polygon 
-        points="360,50 300,228 450,118 270,118 420,228"
-        fill="skyblue"
-        />
-      <polyline points="265,119 319,159 296,227"
-        fill="none"
-        stroke="hotpink" stroke-width="2"
-        />
-    </svg>
 
-    <h1>SVG com una imatge</h1>
-    <img src="img/svg_logo.svg" alt="Logo de SVG" width="100">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVGs</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <h1>Formes bàsiques</h1>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300">
+    <!-- Rombo rojo de pie -->
+    <polygon points="100,50 135,130 100,180 50,130" fill="#F34F29" />
+
+    <!-- Dibujo de molécula similar a la imagen proporcionada -->
+    <circle cx='93' cy='105' r='10' fill='white' />
+    <line x1="33" y1="35" x2="118" y2="135" stroke="white" stroke-width="7" />
+    <line x1="93" y1="105" x2="118" y2="135" stroke="white" stroke-width="7" />
+    <circle cx='115' cy='130' r='10' fill='white' />
+    <line x1="93" y1="105" x2="80" y2="130" stroke="white" stroke-width="7" />
+    <circle cx='77' cy='137' r='10' fill='white' />
+
+
+  </svg>
+  
+  <svg width="602.074" height="1059.149" viewBox="0 0 159.299 280.233" xml:space="preserve"
+    xmlns="http://www.w3.org/2000/svg">
+    <path style="fill:#000;stroke-width:.264583"
+      d="M76.634 288.175c5.866-.383 13.771-3.315 19.764-5.164 5.993-1.85 10.074-2.614 14.027-2.614 3.953 0 7.778.765 11.476 1.849 3.697 1.084 7.268 2.486 10.902 3.953 3.634 1.466 7.332 2.996 11.093 3.251 3.762.255 7.587-.765 11.986-4.335 4.4-3.57 9.372-9.691 15.43-21.55 6.056-11.859 13.196-29.455 13.388-41.95.19-12.497-6.567-19.893-11.349-29.137-4.781-9.245-7.587-20.338-8.352-30.794-.765-10.456.51-20.274 3.124-28.818 2.614-8.543 6.567-15.81 9.627-20.465 3.06-4.654 5.228-6.694 5.037-9.755-.191-3.06-2.741-7.14-6.057-10.71-3.315-3.57-7.395-6.631-12.687-9.436-5.292-2.806-11.795-5.356-18.744-5.61-6.95-.256-14.345 1.784-20.402 4.143-6.057 2.36-10.775 5.037-18.298 4.336-7.523-.702-17.851-4.782-24.227-7.077-6.375-2.295-8.798-2.805-13.962-.893-5.165 1.913-13.07 6.248-20.338 14.218-7.269 7.97-13.899 19.573-17.916 34.555-4.016 14.983-5.419 33.344-4.462 52.216.956 18.872 4.271 38.253 10.902 55.977 6.63 17.725 16.576 33.79 23.462 42.908 6.885 9.117 10.71 11.285 16.576 10.902zM109.404 71.661c-1.657-2.933-1.785-8.798-.828-15.046.956-6.248 2.996-12.879 5.801-18.808 2.806-5.93 6.376-11.157 11.094-15.811 4.718-4.655 10.583-8.735 14.727-11.03 4.145-2.295 6.567-2.805 7.46 1.785.892 4.59.255 14.281-1.34 21.486-1.593 7.204-4.143 11.922-7.331 16.831-3.188 4.91-7.013 10.01-10.71 13.963-3.699 3.953-7.269 6.758-10.648 8.16-3.38 1.403-6.567 1.403-8.225-1.53z"
+      transform="translate(-25.405 -9.254)" />
+  </svg>
 
 </body>
+
 </html>
