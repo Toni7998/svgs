@@ -1,3 +1,3 @@
 # SVGs
 
-En aquesta branca que es diu "logos" estan pujats els resultats de tots els logos SVG que hem hagut de fer.
+En esta branca que se llama "logos" estan subidos todos los ejercicios SVG que he tenido que hacer.
