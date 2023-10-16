@@ -1,5 +1,3 @@
-# SVGs
+# GIF Animat
 
-Aquest repositori conté exemples de com crear SVGs de diverses maneres.
-
-Existeixen algunes branques amb exemples variats.
+Branca feta per l'activtat 3
